@@ -1,0 +1,11 @@
+mainmodule hello {
+	mainchare Main {
+		entry Main (CkArgMsg *m);
+		entry void done();
+	};
+	
+	array[1D] Hello {
+		entry Hello();
+		entry void SayHi();
+	};
+};
